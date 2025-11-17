@@ -15,7 +15,7 @@ namespace YourNamespace.Controllers
             _context = context;
         }
 
-        // GET: api/Category
+        // GET: api/Category //ht
         [HttpGet]
         public async Task<ActionResult<IEnumerable<object>>> GetCategories()
         {

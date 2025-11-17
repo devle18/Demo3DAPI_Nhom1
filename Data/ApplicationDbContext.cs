@@ -10,6 +10,8 @@ namespace Demo3DAPI.Data
         }
 
         public DbSet<PlayerAccount> PlayerAccounts { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
         public DbSet<PlayerCharacter> PlayerCharacters { get; set; }
 
         public DbSet<Role> Roles { get; set; }

@@ -10,7 +10,7 @@ namespace Demo3DAPI.Interfaces
         Task<IEnumerable<PlayerCharacter>> GetCharactersByAccountId(int accountId);
         Task<PlayerCharacter?> CreateCharacter(CreatePlayerCharacterDto characterDto);
         Task<bool> UpdateCharacter(int id, UpdatePlayerCharacterDto characterDto);
-        Task<bool> DeleteCharacter(int id);
+        Task<bool> DeleteCharacter(int id); 
     }
 }
 
